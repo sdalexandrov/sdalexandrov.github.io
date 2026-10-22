@@ -248,6 +248,19 @@
       letter-spacing: 0.03em;
     }
     .pub-item a:hover { text-decoration: underline; }
+    .pub-item .pub-note {
+      display: inline-block;
+      margin: 0.25rem 0 0.1rem;
+      font-size: 0.76rem;
+      color: var(--star);
+      font-style: italic;
+    }
+    .pub-intro {
+      font-size: 0.85rem;
+      color: var(--ink-faint);
+      margin-bottom: 1rem;
+      max-width: 620px;
+    }
     .pub-year-group { margin-bottom: 0.4rem; }
     .pub-year-heading {
       font-size: 0.7rem;
@@ -360,7 +373,7 @@
         <div class="hero-links">
           <a class="badge" href="https://orcid.org/0000-0002-4959-8598" target="_blank" rel="noopener">ORCID</a>
           <a class="badge" href="https://www.scopus.com/authid/detail.uri?authorId=57210311866" target="_blank" rel="noopener">Scopus</a>
-          <a class="badge" href="https://ui.adsabs.harvard.edu/public-libraries/VBqvFL8GR2OJ-UX8-J00jw" target="_blank" rel="noopener">NASA/ADS</a>
+          <a class="badge" href="https://scixplorer.org/public-libraries/VBqvFL8GR2OJ-UX8-J00jw" target="_blank" rel="noopener">SciX</a>
           <a class="badge" href="https://cosmos.1.bg" target="_blank" rel="noopener">КОСМОС БГ</a>
         </div>
       </div>
@@ -415,6 +428,20 @@
 
     <p class="pub-year-heading">2026</p>
     <div class="pub-list">
+
+      <div class="pub-item">
+        <span class="pub-authors">Subramanian, A.; Meisner, A. M.; Gagné, J.; Schneider, A. C.; Dey, A.; Marocco, F.; Humphreys, A.; Faherty, J. K.; Kirkpatrick, J. D.; Kuchner, M. J.; <strong>Alexandrov, S.</strong>; Bentzen, S. L. S.; Dungworth, G.; Fukuyama, H.; Gramaize, L.; Mamichel, G.; Martin, D. W.; Sainio, A.; da Silva, C. M.; Tanner, C.; Thakur, V.; The Backyard Worlds: Cool Neighbors Collaboration</span>
+        <span class="pub-title">Additional High Proper Motion Ultracool Dwarf Discoveries from Backyard Worlds: Cool Neighbors.</span>
+        <span class="pub-journal">Research Notes of the AAS, 10, 291 (2026)</span><br>
+        <a href="https://doi.org/10.3847/2515-5172/aeb4a9" target="_blank" rel="noopener">doi.org/10.3847/2515-5172/aeb4a9</a>
+      </div>
+
+      <div class="pub-item">
+        <span class="pub-authors">Alexandrov, S.</span>
+        <span class="pub-title">From Microbiology to Astrobiology: Evaluating Algal Biosignature Scenarios with a Locally Deployed Language Model.</span>
+        <span class="pub-journal">Acta Microbiologica Bulgarica, 42(3), 518–532 (2026)</span><br>
+        <a href="https://doi.org/10.59393/amb26420315" target="_blank" rel="noopener">doi.org/10.59393/amb26420315</a>
+      </div>
 
       <div class="pub-item">
         <span class="pub-authors">Lin, C.-C.; Smith, I.; Ramanjooloo, Y.; de Boer, T.; Huber, M.; Paek, G.; Schultz, A.; Skaer, L.; Fairlamb, J.; Chambers, K.; Magnier, E.; Wainscoat, R.; Weryk, R.; Minguez, P.; Lowe, T.; Larson, S. M.; Fazekas, J. B.; Lejoly, C.; Perrella, C. S.; Gray, B.; Maiorana, P.; Seaman, R. L.; Woodward, C. E.; Beuden, T.; Groeller, H.; Shelly, F. C.; <strong>Alexandrov, S. D.</strong>; Fisher, T. G.; Brucker, M. J.; Fuls, D. C.; Carvajal, V. F.; Chaghafi, E.; Hogan, J. K.; Leonard, G. J.; Mastaler, R. A.; Gibbs, A. R.; Fay, D.; McMillan, R. S.; Wierzchos, K. W.; Rankin, D.; Kowalski, R. A.</span>
@@ -520,11 +547,35 @@
 
     </div>
 
+    <div id="acknowledged">
+      <p class="pub-year-heading" style="margin-top: 2.6rem;">Признат принос в научни публикации</p>
+      <p class="pub-intro">Статии, в които приносът ми като граждански учен е отбелязан в текста — в раздел Acknowledgements или в приложение със списък на доброволците.</p>
+      <div class="pub-list">
+
+        <div class="pub-item">
+          <span class="pub-authors">Singh, D.; Chandler, C. O.; Murtagh, J.; Frissell, M. K.; Sedaghat, N.; Vavilov, D.; Hsieh, H. H.; Trujillo, C. A.; Burris, W. A.; Oldroyd, W. J.; Kueny, J. K.; Chow, I.; Morato, N.; Zhang, J.; Farrell, K. A.; Dickenson, A. N.; DeSpain, J. A.; Magbanua, M. J. M.; Sheppard, S. S.; Mazzucato, M. T.; Bosch, M. K. D.; Rindler, T.; Gonano, V.; Lamperti, A.; da Silva Campos, J. A.; Goodwin, B. L.; Terentev, I. A.; Dukes, C. J. A.; Pasqua, A.; Allen, A. J.; Knudsen, I. E.</span>
+          <span class="pub-title">A Tail of Two Classifications: Citizen Science Reveals Activity from Jupiter-family Comet 2021 RK133.</span>
+          <span class="pub-journal">Research Notes of the AAS, 10, 210 (2026)</span><br>
+          <span class="pub-note">Споменат в Acknowledgements сред гражданските учени на НАСА, изследвали 2021 RK133</span><br>
+          <a href="https://doi.org/10.3847/2515-5172/ae8f3a" target="_blank" rel="noopener">doi.org/10.3847/2515-5172/ae8f3a</a>
+        </div>
+
+        <div class="pub-item">
+          <span class="pub-authors">Killestein, T. L.; Kelsey, L.; Wickens, E.; Nuttall, L.; Lyman, J.; Krawczyk, C.; Ackley, K.; Dyer, M. J.; Jiménez-Ibarra, F.; Ulaczyk, K.; O’Neill, D.; Kumar, A.; Steeghs, D.; Galloway, D. K.; Dhillon, V. S.; O’Brien, P.; Ramsay, G.; Noysena, K.; Kotak, R.; Breton, R. P.; Pallé, E.; Pollacco, D.; Awiphan, S.; Belkin, S.; Chote, P.; Clark, P.; Coppejans, D.; Duffy, C.; Eyles-Ferris, R.; Godson, B.; Gompertz, B.; Graur, O.; Irawati, P.; Jarvis, D.; Julakanti, Y.; Kennedy, M. R.; Kuncarayakti, H.; Levan, A.; Littlefair, S.; Magee, M.; Mandhai, S.; Mata Sánchez, D.; Mattila, S.; McCormac, J.; Mullaney, J.; Munday, J.; Patel, M.; Pursiainen, M.; Rana, J.; Sawangwit, U.; Stanway, E.; Starling, R.; Warwick, B.; Wiersema, K.</span>
+          <span class="pub-title">Kilonova Seekers: the GOTO project for real-time citizen science in time-domain astrophysics.</span>
+          <span class="pub-journal">Monthly Notices of the Royal Astronomical Society, 533(2), 2113–2132 (2024)</span><br>
+          <span class="pub-note">Включен в Appendix A: Full List of Volunteers</span><br>
+          <a href="https://academic.oup.com/mnras/article/533/2/2113/7735340" target="_blank" rel="noopener">academic.oup.com/mnras/article/533/2/2113/7735340</a>
+        </div>
+
+      </div>
+    </div>
+
     <p style="margin-top: 1.6rem; font-size: 0.82rem; color: var(--ink-faint);">
-      Пълен списък с публикации: 
+      Пълен списък с публикации:
       <a href="https://orcid.org/0000-0002-4959-8598" target="_blank" rel="noopener">ORCID</a> &nbsp;·&nbsp;
       <a href="https://www.scopus.com/authid/detail.uri?authorId=57210311866" target="_blank" rel="noopener">Scopus</a> &nbsp;·&nbsp;
-      <a href="https://ui.adsabs.harvard.edu/public-libraries/VBqvFL8GR2OJ-UX8-J00jw" target="_blank" rel="noopener">NASA/ADS</a>
+      <a href="https://scixplorer.org/public-libraries/VBqvFL8GR2OJ-UX8-J00jw" target="_blank" rel="noopener">SciX</a>
     </p>
   </div>
 </section>
@@ -574,7 +625,7 @@
     <p>© <span id="yr"></span> Светослав Александров &nbsp;·&nbsp;
       <a href="https://orcid.org/0000-0002-4959-8598" target="_blank" rel="noopener">ORCID</a> &nbsp;·&nbsp;
       <a href="https://www.scopus.com/authid/detail.uri?authorId=57210311866" target="_blank" rel="noopener">Scopus</a> &nbsp;·&nbsp;
-      <a href="https://ui.adsabs.harvard.edu/public-libraries/VBqvFL8GR2OJ-UX8-J00jw" target="_blank" rel="noopener">NASA/ADS</a>
+      <a href="https://scixplorer.org/public-libraries/VBqvFL8GR2OJ-UX8-J00jw" target="_blank" rel="noopener">SciX</a>
     </p>
   </div>
   <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
